@@ -1,0 +1,33 @@
+/*Estilo externo*/
+p{
+    color: #ff0000;
+    font-size: 20pt;
+}
+
+body{
+    background: linear-gradient(#000000, #ffff00);
+    background-attachment: fixed;
+}
+
+/*estilo classes*/
+/*criar com . */
+.caixa{
+    background-color: #ffffff;
+    text-align: justify;
+    padding: 20px;
+    width: 500px;
+    border: 4px dashed red;
+    border-radius: 40px;
+}
+
+.sombra{
+    box-shadow: 5px 5px 1px #0000ff;
+}
+
+/*estilo individual*/
+/*criar com # */
+#principal{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 30pt;
+}
